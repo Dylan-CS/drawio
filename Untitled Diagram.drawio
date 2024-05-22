@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T06:30:17.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.4" etag="cpsvWoS0vlOt0vtNmwCx" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T06:52:13.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="iVoknIYTzULaJ78v6R_j" version="24.4.4" type="github">
   <diagram name="Page-1" id="cmm4CG6WD8H9nOfJ1Ax9">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-1" value="Decide whether it is related to category&lt;div&gt;yes or no&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-4" value="sentence extraction without grammar 89.5&lt;div&gt;sentence extraction with grammar&amp;nbsp;93.2&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.628;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.443;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6e6QBMLJj0E-vSI6N6rb-1" target="6e6QBMLJj0E-vSI6N6rb-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="sourcePoint" />
+            <mxPoint x="370" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-8" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6e6QBMLJj0E-vSI6N6rb-5">
+          <mxGeometry x="-0.136" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.189;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.475;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6e6QBMLJj0E-vSI6N6rb-1" target="6e6QBMLJj0E-vSI6N6rb-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="550" as="sourcePoint" />
+            <mxPoint x="224" y="621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-7" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6e6QBMLJj0E-vSI6N6rb-6">
+          <mxGeometry x="-0.3576" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-9" value="Nature analysis without grammar 79.6&lt;br&gt;Nature analysis with grammar 27 -&amp;gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="740" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-10" value="Nature analysis without grammar and without decision (81)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.443;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="540" as="sourcePoint" />
+            <mxPoint x="580" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-12" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6e6QBMLJj0E-vSI6N6rb-11">
+          <mxGeometry x="-0.136" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-13" value="Nature analysis without grammer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="850" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-14" value="Nature extraction with grammer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="940" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6QBMLJj0E-vSI6N6rb-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6e6QBMLJj0E-vSI6N6rb-13" target="6e6QBMLJj0E-vSI6N6rb-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="830" as="sourcePoint" />
+            <mxPoint x="440" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
